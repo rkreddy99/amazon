@@ -20,6 +20,7 @@ function Order({ order }) {
           rating={item.rating}
           image={item.image}
           title={item.title}
+          showRemove={false}
         />
       ))}
       <CurrencyFormat
